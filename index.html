@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sys CTE | เว็บระบบ</title>
+  <meta name="description" content="เว็บนี้สร้างขึ้นเพื่อความบันเทิงเท่านั้น">
+  
+  <!-- SEO / Open Graph -->
+  <meta property="og:title" content="Sys CTE ระบบออนไลน์">
+  <meta property="og:description" content="เว็บนี้สร้างขึ้นเพื่อความบันเทิงเท่านั้น">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://syscte.example.com">
+  <meta property="og:image" content="https://via.placeholder.com/600x315.png?text=Sys+CTE">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Sys CTE</h1>
+    <nav>
+      <a href="index.html" class="active">หน้าแรก</a>
+      <a href="login.html">เข้าสู่ระบบ</a>
+      <a href="register.html">สมัครสมาชิก</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>ยินดีต้อนรับสู่ Sys CTE 🎮</h2>
+      <p>เว็บนี้สร้างขึ้นเพื่อความบันเทิงเท่านั้น</p>
+    </section>
+
+    <section class="pdf-section">
+      <h3>📂 จัดการไฟล์ PDF</h3>
+      <input type="file" id="pdfUpload" accept="application/pdf">
+      <button onclick="uploadPDF()">อัปโหลด PDF</button>
+
+      <div id="pdfList"></div>
+
+      <h3>📖 ตัวอย่าง PDF Viewer</h3>
+      <iframe id="pdfViewer" src="" width="100%" height="400px" style="display:none;"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sys CTE. สงวนลิขสิทธิ์.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
