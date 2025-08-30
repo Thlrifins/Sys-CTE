@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สมัครสมาชิก | Sys CTE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Sys CTE</h1>
+    <nav>
+      <a href="index.html">หน้าแรก</a>
+      <a href="login.html">เข้าสู่ระบบ</a>
+      <a href="register.html" class="active">สมัครสมาชิก</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>สมัครสมาชิก 📝</h2>
+    <form class="auth-form" onsubmit="return registerUser(event)">
+      <label>ชื่อผู้ใช้:</label>
+      <input type="text" id="regUsername" required>
+
+      <label>อีเมล:</label>
+      <input type="email" id="regEmail" required>
+
+      <label>รหัสผ่าน:</label>
+      <input type="password" id="regPassword" required>
+
+      <button type="submit">สมัครสมาชิก</button>
+    </form>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
